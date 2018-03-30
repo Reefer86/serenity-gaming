@@ -25,7 +25,7 @@
 	<div class="banner">
 		<div class="agileinfo-dot">
 			<div class="agileits-logo">
-				<h1><a href="index.html"><center><img src="images/serenity-header.png" class="img img-responsive" /></center></a></h1>
+				<h1><a href="/"><center><img src="images/serenity-header.png" class="img img-responsive" /></center></a></h1>
 			</div>
 			<div class="header-top">
 				<div class="container">
