@@ -24,7 +24,7 @@ body {
 }
 
 .banner {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/header.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -860,7 +860,7 @@ ul.simplefilter {
 /*-- testimonial --*/
 
 .testimonial {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/kerrigan.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -987,7 +987,7 @@ ul.simplefilter {
     text-align: center;
 }
 
-.team-caption ul li a i.fa.fa-facebook {
+.team-caption ul li a i.fa.fa-youtube {
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -1001,11 +1001,11 @@ ul.simplefilter {
     -ms-transition: 0.5s all;
 }
 
-.team-caption ul li a i.fa.fa-facebook:hover {
-    background: #3b5998;
+.team-caption ul li a i.fa.fa-youtube:hover {
+    background: #ff0000;
 }
 
-.team-caption ul li a i.fa.fa-twitter {
+.team-caption ul li a i.fa.fa-twitch {
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -1019,8 +1019,8 @@ ul.simplefilter {
     -ms-transition: 0.5s all;
 }
 
-.team-caption ul li a i.fa.fa-twitter:hover {
-    background: #55acee;
+.team-caption ul li a i.fa.fa-twitch:hover {
+    background: #7700ff;
 }
 
 .team-caption ul li a i.fa.fa-rss {
@@ -1538,16 +1538,16 @@ ul.simplefilter {
     -ms-transition: 0.5s all;
 }
 
-.agileinfo-social-grids ul li a i.fa.fa-facebook:hover {
-    color: #3b5998;
+.agileinfo-social-grids ul li a i.fa.fa-youtube:hover {
+    color: #ff0000;
 }
 
-.agileinfo-social-grids ul li a i.fa.fa-twitter {
+.agileinfo-social-grids ul li a i.fa.fa-twitch {
     margin: 0 1em;
 }
 
-.agileinfo-social-grids ul li a i.fa.fa-twitter:hover {
-    color: #55acee;
+.agileinfo-social-grids ul li a i.fa.fa-twitch:hover {
+    color: #7700ff;
 }
 
 .agileinfo-social-grids ul li a i.fa.fa-rss {
@@ -2066,6 +2066,10 @@ ul.simplefilter {
 
 .w3ls-markets-grid a {
     text-decoration: none;
+}
+
+.adminImage {
+    border-radius: 100px;
 }
 
 

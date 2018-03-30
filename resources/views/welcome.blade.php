@@ -288,123 +288,37 @@
 					<h3>Our Admin Team</h3> 
 				</div>
 				<div class="w3-agile-testimonial">
-					<div class="slider">
-						<div class="callbacks_container">
-							<ul class="rslides callbacks callbacks1" id="slider3">
-								<li>
-									<div class="testimonial-img-grid">
-										<div class="testimonial-img t-img1">
-											<img src="images/ts1.jpg" alt="" />
-										</div>
-										<div class="testimonial-img">
-											<img src="images/ts2.jpg" alt="" />
-										</div>
-										<div class="testimonial-img t-img2">
-											<img src="images/ts3.jpg" alt="" />
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<div class="testimonial-img-info">
-										<h5>SG | Jxckaroo</h5>
-										<h6></h6>
-									</div>
-								</li>
-								<li>
-									<div class="testimonial-img-grid">
-										<div class="testimonial-img t-img1">
-											<img src="images/ts2.jpg" alt="" />
-										</div>
-										<div class="testimonial-img">
-											<img src="images/ts3.jpg" alt="" />
-										</div>
-										<div class="testimonial-img t-img2">
-											<img src="images/ts1.jpg" alt="" />
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<div class="testimonial-img-info">
-										<h5>SG | Jonnyandwot</h5>
-										<h6></h6>
-									</div>
-								</li>
-								<li>
-									<div class="testimonial-img-grid">
-										<div class="testimonial-img t-img1">
-											<img src="images/ts3.jpg" alt="" />
-										</div>
-										<div class="testimonial-img">
-											<img src="images/ts1.jpg" alt="" />
-										</div>
-										<div class="testimonial-img t-img2">
-											<img src="images/ts2.jpg" alt="" />
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<div class="testimonial-img-info">
-										<h5>SG | K1NKYN1NJ4</h5>
-										<h6></h6>
-									</div>
-								</li>
-								<li>
-									<div class="testimonial-img-grid">
-										<div class="testimonial-img t-img1">
-											<img src="images/ts3.jpg" alt="" />
-										</div>
-										<div class="testimonial-img">
-											<img src="images/ts1.jpg" alt="" />
-										</div>
-										<div class="testimonial-img t-img2">
-											<img src="images/ts2.jpg" alt="" />
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<div class="testimonial-img-info">
-										<h5>SG | Ryu</h5>
-										<h6></h6>
-									</div>
-								</li>
-								<li>
-									<div class="testimonial-img-grid">
-										<div class="testimonial-img t-img1">
-											<img src="images/ts3.jpg" alt="" />
-										</div>
-										<div class="testimonial-img">
-											<img src="images/ts1.jpg" alt="" />
-										</div>
-										<div class="testimonial-img t-img2">
-											<img src="images/ts2.jpg" alt="" />
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<div class="testimonial-img-info">
-										<h5>SG | Reefer</h5>
-										<h6></h6>
-									</div>
-								</li>
-							</ul>
+					<div class="row">
+						<div class="col=sm-12 col-md-2 col-md-offset-1 text-center">
+							<img src="images/jack.jpg" class="img img-responsive adminImage" />
+							<p style="color: white; margin-top: 10px;">
+								SG | Jxckaroo
+							</p>
 						</div>
-						<div class="clearfix"> </div>
-						<script>
-									// You can also use "$(window).load(function() {"
-									$(function () {
-									  // Slideshow 4
-									  $("#slider3").responsiveSlides({
-										auto: true,
-										pager:false,
-										nav:false,
-										speed: 500,
-										namespace: "callbacks",
-										before: function () {
-										  $('.events').append("<li>before event fired.</li>");
-										},
-										after: function () {
-										  $('.events').append("<li>after event fired.</li>");
-										}
-									  });
-								
-									});
-						</script>
-						<!--banner Slider starts Here-->
+						<div class="col=sm-12 col-md-2 text-center">
+							<img src="images/jonny.jpg" class="img img-responsive adminImage" />
+							<p style="color: white; margin-top: 10px;">
+								SG | Jonnyandwot
+							</p>
+						</div>
+						<div class="col=sm-12 col-md-2 text-center">
+							<img src="images/ryu.jpg" class="img img-responsive adminImage" />
+							<p style="color: white; margin-top: 10px;">
+								SG | Ryu
+							</p>
+						</div>
+						<div class="col=sm-12 col-md-2 text-center">
+							<img src="images/reef.jpg" class="img img-responsive adminImage" />
+							<p style="color: white; margin-top: 10px;">
+								SG | Reefer
+							</p>
+						</div>
+						<div class="col=sm-12 col-md-2 text-center">
+							<img src="images/kinky.jpg" class="img img-responsive adminImage" />
+							<p style="color: white; margin-top: 10px;">
+								SG | K1NKYN1NJA
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -659,10 +573,9 @@
 				</div>
 				<div class="col-md-4 amet-sed amet-medium">
 					<div class="footer-title">
-						<h3>Twitter Feed</h3>
+						<h3>Our Discord</h3>
 					</div> 
-					<p><a href="#">http://example.com</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum eget placerat. </p>
-					<p><a href="#">http://mail.com</a> Sed tincidunt lorem sed velit fermentum eget placerat. Lorem ipsum dolor sit, consectetur adipiscing elit. </p>
+					<iframe style="margin-top: 30px;" src="https://discordapp.com/widget?id=406125099163320323&theme=dark" height="200" allowtransparency="true" frameborder="0"></iframe>
 				</div>
 				<div class="col-md-4 amet-sed ">
 					<div class="footer-title">
@@ -670,10 +583,9 @@
 					</div> 
 					<div class="agileinfo-social-grids">
 						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitch"></i></a></li>
+							<li><a href="#"><i class="fa fa-discord"></i></a></li>
 						</ul>
 					</div>
 					<!-- <div class="support">
@@ -691,7 +603,7 @@
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
-			<p class="footer-class">© 2017 Serenity Gaming EU. All Rights Reserved | Developed By <a href="#" target="_blank">SG | Jxckaroo</a></p>
+			<p class="footer-class">© 2017 Serenity Gaming EU. All Rights Reserved | Developed By <a href="https://github.com/Jxckaroo" target="_blank">Jack Mollart (SG | Jxckaroo)</a></p>
 		</div>
 	</div>
 	<!-- //copyright -->
