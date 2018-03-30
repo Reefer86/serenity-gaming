@@ -605,7 +605,7 @@ body {
 .simplefilter li,
 .multifilter li,
 .sortandshuffle li {
-    color: #212121;
+    color: #999;
     cursor: pointer;
     display: inline-block;
     padding: 10px 20px;

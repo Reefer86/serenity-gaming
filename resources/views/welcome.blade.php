@@ -2,7 +2,7 @@
 
 @section('content')
 	<!-- about -->
-	<div class="about" id="about"> 
+	<div class="about" id="about" style="background: #212121;"> 
 		<div class="container"> 
 			<div class="welcome">
 				<div class="agileits-title"> 
@@ -23,7 +23,7 @@
 	</div>
 	<!-- //about --> 
 	<!-- markets -->
-	<div class="markets" id="markets">
+	<div class="markets" id="markets" style="background: #333;">
 		<div class="container">
 			<div class="agileits-title"> 
 				<h3>Our Links</h3>
@@ -77,7 +77,7 @@
 	</div>
 	<!-- //markets -->
 	<!-- portfolio -->
-	<div class="portfolio" id="gallery">
+	<div class="portfolio" id="gallery" style="background: #212121;">
 		<div class="container">
 			<div class="agileits-title"> 
 				<h3>Our Games</h3> 
