@@ -2054,7 +2054,7 @@ ul.simplefilter {
 }
 
 #preloader {
-    background: #000000 url('images/logo_definition.jpg') no-repeat center center;
+    background: #000000 url('../images/logo_definition.jpg') no-repeat center center;
     position: fixed;
     left: 0;
     top: 0;
