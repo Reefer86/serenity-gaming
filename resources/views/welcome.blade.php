@@ -402,14 +402,7 @@
 			</div> 
 			<div class="wthree-blog-grids">
 				
-				@foreach($posts as $post)
-				<div class="col-md-3 w3-agileits-blog-grid text-center">
-					<a href="/post/{{ $post->slug }}">
-						<img src="{{ Voyager::image( $post->image ) }}" style="width:100%">
-						<h4>{{ $post->title }}</h4>
-					</a>
-				</div>
-				@endforeach
+
 
 				<div class="clearfix"> </div>
 			</div>
