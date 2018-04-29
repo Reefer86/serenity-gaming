@@ -18,6 +18,16 @@
     <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
     <link href="{{ asset('css/chocolat.css') }}" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118375400-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-118375400-1');
+	</script>
 </head>
 <body>
 	<div id="preloader"></div>
@@ -120,7 +130,7 @@
         jQuery(document).ready(function($) {
 				setTimeout(function(){
 					$('#preloader').slideUp();
-				}, 200);
+				}, 2000);
 
             $(".scroll").click(function(event){		
                 event.preventDefault();

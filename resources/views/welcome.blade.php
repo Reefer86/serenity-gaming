@@ -33,7 +33,7 @@
 					<a href="https://discord.gg/57RQYEN" target="_blank">
 					<div class="agileits-icon-grid">
 						<div class="icon-left">
-							<i class="fa fa-gamepad" aria-hidden="true"></i>
+							<img src="images/discord.png" class="img img-responsive" />
 						</div>
 						<div class="icon-right">
 							<h5>Discord</h5>
@@ -47,7 +47,7 @@
 					<a href="https://www.twitch.tv/serenitygameeu" target="_blank">
 					<div class="agileits-icon-grid">
 						<div class="icon-left">
-							<i class="fa fa-trophy" aria-hidden="true"></i>
+							<img src="images/twitch.png" class="img img-responsive" />
 						</div>
 						<div class="icon-right">
 							<h5>Twitch</h5>
@@ -61,7 +61,7 @@
 					<a href="https://www.youtube.com/channel/UCbI1OxhQjnwk2KuPlZTVxiA" target="_blank">
 					<div class="agileits-icon-grid">
 						<div class="icon-left">
-							<i class="fa fa-user" aria-hidden="true"></i>
+							<img src="images/youtube.png" class="img img-responsive" />
 						</div>
 						<div class="icon-right">
 							<h5>YouTube</h5>
@@ -393,48 +393,46 @@
 		</div>
 	</div> -->
 	<!-- //team -->
-	<!-- blog -->
-	<!-- <div id="blog" class="blog">
+
+	<!-- blog
+	<div id="blog" class="blog">
 		<div class="container"> 
 			<div class="agileits-title">
 				<h3>Our Blog</h3>
 			</div> 
 			<div class="wthree-blog-grids">
-				<div class="col-md-6 w3-agileits-blog-grid">
-					<div class="col-sm-4 col-xs-3 blog-left">
-						<h4>24/01</h4>
-						<ul>
-							<li>Posted : <a href="#">Admin</a></li>
-							<li>Likes : 31<li>
-							<li>Comments : (4)</li>
-						</ul>
-					</div>
-					<div class="col-sm-8 col-xs-9 blog-right">
-						<a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus gravida.</a>
-						<p>Sed ut feugiat felis. Morbi tempor ut nibh id consectetur. Morbi turpis arcu, interdum at feugiat non, iaculis id dui. Cras vestibulum dapibus volutpat. Fusce id molestie mauris, nec pulvinar nibh. </p>
-					</div>
-					<div class="clearfix"> </div>
+				
+				@foreach($posts as $post)
+				<div class="col-md-3 w3-agileits-blog-grid text-center">
+					<a href="/post/{{ $post->slug }}">
+						<img src="{{ Voyager::image( $post->image ) }}" style="width:100%">
+						<h4>{{ $post->title }}</h4>
+					</a>
 				</div>
-				<div class="col-md-6 w3-agileits-blog-grid">
-					<div class="col-sm-4 col-xs-3 blog-left">
-						<h4>09/12</h4>
-						<ul>
-							<li>Posted : <a href="#">Admin</a></li>
-							<li>Likes : 80<li>
-							<li>Comments : (8)</li>
-						</ul>
-					</div>
-					<div class="col-sm-8 col-xs-9 blog-right">
-						<a href="#" data-toggle="modal" data-target="#myModal">Etiam ut nibh quis magna placerat euismod ac id eros. Cras eleifend nulla vel eros blandit.</a>
-						<p>Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac. Maecenas sollicitudin eros lectus, a rutrum nisi vulputate quis. Proin tempus, lectus vitae gravida</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+				@endforeach
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div> -->
+
+	<!-- <div class="col-md-6 w3-agileits-blog-grid">
+		<div class="col-sm-4 col-xs-3 blog-left">
+			<h4>24/01</h4>
+			<ul>
+				<li>Posted : <a href="#">Admin</a></li>
+				<li>Likes : 31<li>
+				<li>Comments : (4)</li>
+			</ul>
+		</div>
+		<div class="col-sm-8 col-xs-9 blog-right">
+			<a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus gravida.</a>
+			<p>Sed ut feugiat felis. Morbi tempor ut nibh id consectetur. Morbi turpis arcu, interdum at feugiat non, iaculis id dui. Cras vestibulum dapibus volutpat. Fusce id molestie mauris, nec pulvinar nibh. </p>
+		</div>
+		<div class="clearfix"> </div>
+	</div> -->
 	<!-- //blog -->
+	
 	<!-- mail -->
 	<!-- <div class="mail" id="mail">
 		<div class="container">

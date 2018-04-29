@@ -24,7 +24,7 @@ body {
 }
 
 .banner {
-    background: url(../images/header.jpg) no-repeat 0px 0px;
+    background: url(../images/reaper-header.png) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -539,9 +539,7 @@ body {
     width: 70px;
     height: 70px;
     text-align: center;
-    padding: 1.2em 0 0 0;
     margin: 0 auto 1em;
-    background: #ff9800;
 }
 
 .icon-left i.fa {
