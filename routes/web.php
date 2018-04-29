@@ -12,10 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $posts = App\Post::all();
+    return view('welcome', compact('posts'));
+});
+
+Route::get('post/{slug}', function($slug){
+	$post = App\Post::where('slug', '=', $slug)->firstOrFail();
+	return view('post', compact('post'));
 });
 
 // Commented out as auth isnt needed
 //Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

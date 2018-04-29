@@ -394,7 +394,7 @@
 	</div> -->
 	<!-- //team -->
 
-	<!-- blog
+	<!-- blog -->
 	<div id="blog" class="blog">
 		<div class="container"> 
 			<div class="agileits-title">
@@ -402,12 +402,19 @@
 			</div> 
 			<div class="wthree-blog-grids">
 				
-
+				@foreach($posts as $post)
+				<div class="col-md-3 w3-agileits-blog-grid text-center">
+					<a href="/post/{{ $post->slug }}">
+						<img src="{{ Voyager::image( $post->image ) }}" style="width:100%">
+						<h4>{{ $post->title }}</h4>
+					</a>
+				</div>
+				@endforeach
 
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 
 	<!-- <div class="col-md-6 w3-agileits-blog-grid">
 		<div class="col-sm-4 col-xs-3 blog-left">
