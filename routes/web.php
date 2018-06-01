@@ -23,10 +23,13 @@ Route::get('post/{slug}', function($slug){
 
 // Commented out as auth isnt needed
 //Auth::routes();
-
 //Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+
+    // Custom voyager routes
+    Route::get('multibot/applications','MultibotController@applications')->middleware('admin.user');
+
 });

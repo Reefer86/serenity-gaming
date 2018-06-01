@@ -395,7 +395,7 @@
 	<!-- //team -->
 
 	<!-- blog -->
-	<div id="blog" class="blog">
+	<div id="blog" class="blog" style="background: #212121;">
 		<div class="container"> 
 			<div class="agileits-title">
 				<h3>Our Blog</h3>
@@ -406,7 +406,7 @@
 				<div class="col-md-3 w3-agileits-blog-grid text-center">
 					<a href="/post/{{ $post->slug }}">
 						<img src="{{ Voyager::image( $post->image ) }}" style="width:100%">
-						<h4>{{ $post->title }}</h4>
+						<p style="color: white; margin-top: 10px; text-decoration: none;">{{ $post->title }}</p>
 					</a>
 				</div>
 				@endforeach
