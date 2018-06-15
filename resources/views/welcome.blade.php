@@ -257,6 +257,17 @@
 						</figure>
 					</a>
 				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Blood Bowl 2">
+					<a href="https://cdn.discordapp.com/attachments/418343814546325504/457161970752290817/blood-bowl-2-listing-thumb-01-ps4-us-13aug15.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="https://cdn.discordapp.com/attachments/418343814546325504/457161970752290817/blood-bowl-2-listing-thumb-01-ps4-us-13aug15.png" class="img-responsive w3layouts agileits" alt="Blood Bowl 2">
+							<figcaption>
+								<h3>Blood Bowl 2</h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
