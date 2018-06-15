@@ -6,14 +6,14 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Application extends Model
+class DiscordMember extends Model
 {
     use Notifiable;
 
     /**
      * Database table
      */
-    protected $table = 'applications';
+    protected $table = 'discord_members';
 
     /**
      * The attributes that are mass assignable.
@@ -21,6 +21,6 @@ class Application extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'age', 'location', 'game', 'current', 'conduct', 'reference', 'status'
+        'name', 'discord_id'
     ];
 }

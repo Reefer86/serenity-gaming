@@ -31,5 +31,9 @@ Route::group(['prefix' => 'admin'], function () {
 
     // Custom voyager routes
     Route::get('multibot/applications','MultibotController@applications')->middleware('admin.user');
+    Route::get('multibot/applications/create','MultibotController@create')->middleware('admin.user');
+    Route::post('multibot/applications/create/manual','MultibotController@save');
+    Route::post('multibot/applications/handle','MultibotController@handle');
 
+    Route::get('multibot/statistics','MultibotController@statistics')->middleware('admin.user');
 });
