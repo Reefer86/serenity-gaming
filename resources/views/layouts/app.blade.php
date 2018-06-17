@@ -83,7 +83,7 @@
 												<h3>Discord</h3>
 												<p>Join the best upcoming community on discord!</p>
 												<div class="w3-button">
-													<a href="https://discord.gg/57RQYEN" target="_blank">Join!</a>
+													<a href="https://discord.gg/NkYYwGr" target="_blank">Join!</a>
 													<!--<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>-->
 												</div>
 											</div>
