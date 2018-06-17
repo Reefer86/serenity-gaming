@@ -30,7 +30,7 @@
 			</div>
 			<div class="markets-grids">
 				<div class="col-md-4 w3ls-markets-grid">
-					<a href="https://discord.gg/57RQYEN" target="_blank">
+					<a href="https://discord.gg/NkYYwGr" target="_blank">
 					<div class="agileits-icon-grid">
 						<div class="icon-left">
 							<img src="images/discord.png" class="img img-responsive" />
