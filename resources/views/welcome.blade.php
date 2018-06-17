@@ -300,31 +300,25 @@
 				</div>
 				<div class="w3-agile-testimonial">
 					<div class="row">
-						<div class="col=sm-12 col-md-2 col-md-offset-1 text-center">
+						<div class="col=sm-12 col-md-3 text-center">
 							<img src="images/jack.jpg" class="img img-responsive adminImage" />
 							<p style="color: white; margin-top: 10px;">
 								SG | Jxckaroo
 							</p>
 						</div>
-						<div class="col=sm-12 col-md-2 text-center">
+						<div class="col=sm-12 col-md-3 text-center">
 							<img src="images/jonny.jpg" class="img img-responsive adminImage" />
 							<p style="color: white; margin-top: 10px;">
 								SG | Jonnyandwot
 							</p>
 						</div>
-						<div class="col=sm-12 col-md-2 text-center">
+						<div class="col=sm-12 col-md-3 text-center">
 							<img src="images/ryu.jpg" class="img img-responsive adminImage" />
 							<p style="color: white; margin-top: 10px;">
 								SG | Ryu
 							</p>
 						</div>
-						<div class="col=sm-12 col-md-2 text-center">
-							<img src="images/reef.jpg" class="img img-responsive adminImage" />
-							<p style="color: white; margin-top: 10px;">
-								SG | Reefer
-							</p>
-						</div>
-						<div class="col=sm-12 col-md-2 text-center">
+						<div class="col=sm-12 col-md-3 text-center">
 							<img src="images/kinky.jpg" class="img img-responsive adminImage" />
 							<p style="color: white; margin-top: 10px;">
 								SG | K1NKYN1NJA
