@@ -15,7 +15,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('css/new-style.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('css/responsive.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css">
