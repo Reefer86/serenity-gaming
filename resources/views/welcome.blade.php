@@ -104,10 +104,6 @@
 				<h3>League of Legends</h3>
 			</div>
 			<div class=" Portfolio-box other">
-				<a href="images/minecraft.jpg"><img src="images/minecraft.jpg" alt=""></a>
-				<h3>Minecraft</h3>
-			</div>
-			<div class=" Portfolio-box other">
 				<a href="images/poker.jpg"><img src="images/poker.jpg" alt=""></a>
 				<h3>Poker</h3>
 			</div>
@@ -115,29 +111,21 @@
 				<a href="images/rl.jpg"><img src="images/rl.jpg" alt=""></a>
 				<h3>Rocket League</h3>
 			</div>
-			<div class=" Portfolio-box fps other">
-				<a href="images/sot.jpg"><img src="images/sot.jpg" alt=""></a>
-				<h3>Sea of Thieves</h3>
-			</div>
-			<div class=" Portfolio-box other">
-				<a href="images/rpg.jpg"><img src="images/rpg.jpg" alt=""></a>
-				<h3>Table Top RPG's</h3>
-			</div>
-			<div class=" Portfolio-box other">
-				<a href="images/dnd.jpg"><img src="images/dnd.jpg" alt=""></a>
-				<h3>Dungeon &amp; Dragons</h3>
-			</div>
-			<div class=" Portfolio-box other">
-				<a href="images/tw.jpg"><img src="images/tw.jpg" alt=""></a>
-				<h3>Total War: Warhammer</h3>
-			</div>
-			<div class=" Portfolio-box other">
-				<a href="images/v2.jpg"><img src="images/v2.jpg" alt=""></a>
-				<h3>Vermintide</h3>
-			</div>
 			<div class=" Portfolio-box online">
 				<a href="https://cdn.discordapp.com/attachments/418343814546325504/457161970752290817/blood-bowl-2-listing-thumb-01-ps4-us-13aug15.png"><img src="https://cdn.discordapp.com/attachments/418343814546325504/457161970752290817/blood-bowl-2-listing-thumb-01-ps4-us-13aug15.png" alt=""></a>
 				<h3>Blood Bowl 2</h3>
+			</div>
+			<div class=" Portfolio-box online other">
+				<a href="images/sf5.jpg" alt=""><img src="images/sf5.jpg" alt=""></a>
+				<h3>Street Fighter 5</h3>
+			</div>
+			<div class=" Portfolio-box online">
+				<a href="images/wow.jpeg" alt=""><img src="images/wow.jpeg" alt=""></a>
+				<h3>World of Warcraft</h3>
+			</div>
+			<div class=" Portfolio-box online">
+				<a href="images/destiny2.jpg" alt=""><img src="images/destiny2.jpg" alt=""></a>
+				<h3>Destiny 2</h3>
 			</div>
 		</div>
 	</section>
