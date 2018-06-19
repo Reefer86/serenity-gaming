@@ -39,11 +39,11 @@
 			<figure class="logo animated fadeInDown delay-07s">
 				<a href="#"><img src="images/sg_logo_new.png" alt=""></a>
 			</figure>
-			<h1 class="animated fadeInDown delay-07s">Welcome To Serenity Gaming EU V2.0.</h1>
+			<h1 class="animated fadeInDown delay-07s">Welcome To Serenity Gaming EU v2.0.</h1>
 			<ul class="we-create animated fadeInUp delay-1s">
 				<li>The best gaming community, period.</li>
 			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Hop In!</a>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#welcome">Hop In!</a>
 		</div>
 	</header>
 	<!--header-end-->
@@ -53,10 +53,10 @@
 		<div class="container">
 			<ul class="main-nav">
 				<li><a href="#header">Home</a></li>
-				<li><a href="#service">Services</a></li>
-				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#welcome">Welcome</a></li>
+				<li><a href="#games">Our Games</a></li>
 				<li class="small-logo"><a href="#header"><img src="images/sg_logo_new.png" alt="" style="max-width: 75px;"></a></li>
-				<li><a href="#client">Clients</a></li>
+				<li><a href="#partners">Affiliates</a></li>
 				<li><a href="#team">Team</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
