@@ -230,7 +230,6 @@
 	<!--business-talking-end-->
 	<div class="container">
 		<section class="main-section contact" id="contact">
-
 			<div class="row">
 				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
 					<div class="contact-info-box address clearfix">
