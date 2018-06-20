@@ -4,20 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Serenity Gaming EU') }}</title>
 
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/chocolat.css') }}" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('css/new-style.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('css/responsive.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('css/magnific-popup.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118375400-1"></script>
@@ -25,144 +45,161 @@
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
-
 	gtag('config', 'UA-118375400-1');
 	</script>
 </head>
 <body>
-	<div id="preloader"></div>
-    <!-- banner -->
-	<div class="banner">
-		<div class="agileinfo-dot">
-			<div class="agileits-logo">
-				<h1><a href="/"><center><img src="images/serenity-header.png" class="img img-responsive" /></center></a></h1>
-			</div>
-			<div class="header-top">
-				<div class="container">
-					<div class="header-top-info">
-						<nav class="navbar navbar-default">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
+	<!-- <div id="preloader"></div> -->
 
-							<!-- Collect the nav links, forms, and other content for toggling -->
-							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-								<nav>
-									<ul class="nav navbar-nav">
-										<li class="active"><a href="/">Home</a></li>
-										<li><a href="#about" class="scroll">About</a></li>
-										<li><a href="#markets" class="scroll">Links</a></li>
-										<li><a href="#gallery" class="scroll">Games</a></li>
-										<li><a href="#testimonial" class="scroll">Admin Team</a></li>
-										<!-- <li><a href="#team" class="scroll">Team</a></li>
-										<li><a href="#blog" class="scroll">Blog</a></li>
-										<li><a href="#mail" class="scroll">Mail Us</a></li> -->
-									</ul>
-								</nav>
-							</div>
-							<!-- /.navbar-collapse -->
-						</nav>
-					</div>
-				</div>
-			</div>
-			<div class="w3layouts-banner-info">
-				<div class="container">
-					<div class="w3layouts-banner-slider">
-						<div class="w3layouts-banner-top-slider">
-							<div class="slider">
-								<div class="callbacks_container">
-									<ul class="rslides callbacks callbacks1" id="slider4">
-										<li>
-											<div class="banner_text">
-												<h3>Discord</h3>
-												<p>Join the best upcoming community on discord!</p>
-												<div class="w3-button">
-													<a href="https://discord.gg/NkYYwGr" target="_blank">Join!</a>
-													<!--<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>-->
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="banner_text">
-												<h3>Twitch</h3>
-												<p>Follow us on twitch for awesome content!</p>
-												<div class="w3-button">
-													<a href="https://www.twitch.tv/serenitygameeu" target="_blank">Follow!</a>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-								<!--banner Slider starts Here-->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<header class="header" id="header">
+		<!--header-start-->
+		<div class="container">
+			<figure class="logo animated fadeInDown delay-07s">
+				<a href="#"><img src="images/sg_logo_new.png" alt=""></a>
+			</figure>
+			<h1 class="animated fadeInDown delay-07s">Welcome To Serenity Gaming EU v2.0.</h1>
+			<ul class="we-create animated fadeInUp delay-1s">
+				<li>The best gaming community, period.</li>
+			</ul>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#welcome">Hop In!</a>
 		</div>
-	</div>
-    <!-- //banner -->
+	</header>
+	<!--header-end-->
+
+	<nav class="main-nav-outer" id="test">
+		<!--main-nav-start-->
+		<div class="container">
+			<ul class="main-nav">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#welcome">Welcome</a></li>
+				<li><a href="#games">Our Games</a></li>
+				<li class="small-logo"><a href="#header"><img src="images/sg_logo_new.png" alt="" style="max-width: 75px;"></a></li>
+				<li><a href="#partners">Affiliates</a></li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
+		</div>
+	</nav>
+	<!--main-nav-end-->
     
     @yield('content')
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.js') }}"></script>
-    <script src="{{ asset('js/classie.js') }}"></script>
-    <script src="{{ asset('js/controls.js') }}"></script>
-    <script src="{{ asset('js/easing.js') }}"></script>
-    <script src="{{ asset('js/jarallax.js') }}"></script>
-    <script src="{{ asset('js/jquery.chocolat.js') }}"></script>
-    <script src="{{ asset('js/jquery.filterizr.js') }}"></script>
-    <script src="{{ asset('js/move-top.js') }}"></script>
-    <script src="{{ asset('js/responsiveslides.min.js') }}"></script>
-    <script src="{{ asset('js/SmoothScroll.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.1.8.3.min.js') }}"></script>
+	<script src="{{ asset('js/bootstrap.js') }}"></script>
+	<script src="{{ asset('js/jquery-scrolltofixed.js') }}"></script>
+	<script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+	<script src="{{ asset('js/jquery.isotope.js') }}"></script>
+	<script src="{{ asset('js/wow.js') }}"></script>
+	<script src="{{ asset('js/classie.js') }}"></script>
+	<script src="{{ asset('js/magnific-popup.js') }}"></script>
+	<script src="{{ asset('js/contactform.js') }}"></script>
 
-    <script type="text/javascript">
-        jQuery(document).ready(function($) {
-				setTimeout(function(){
-					$('#preloader').slideUp();
-				}, 2000);
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-logo"><a href="#"><img src="images/sg_logo_new.png" alt=""></a></div>
+			<span class="copyright">&copy; Serenity Gaming EU. All Rights Reserved.</span>
+			<div class="credits">
+				Designed &amp; Developed By <a href="https://github.com/jxckaroo" target="_blank">SG | Jxckaroo</a>
+			</div>
+		</div>
+	</footer>
 
-            $(".scroll").click(function(event){		
-                event.preventDefault();
-                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-            });
-        });
-    </script>
-    <script>
-        // You can also use "$(window).load(function() {"
-        $(function () {
-            // Slideshow 4
-            $("#slider4").responsiveSlides({
-            auto: true,
-            pager:true,
-            nav:true,
-            speed: 500,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
-            }
-            });
 
-        });
+	<script type="text/javascript">
+		$(document).ready(function(e) {
 
-		$(document).on('click','.navbar-collapse.in',function(e) {
-			if( $(e.target).is('a') ) {
-				$(this).collapse('hide');
-			}
+			$('#test').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+      $('.Portfolio-box').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+      });
+
 		});
-    </script>
+	</script>
+
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+	</script>
+
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+			$('.main-nav li a, .servicelink').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 102
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
+				if ($(window).width() < 768) {
+					$('.main-nav').hide();
+				}
+				event.preventDefault();
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+
+			var $container = $('.portfolioContainer'),
+				$body = $('body'),
+				colW = 375,
+				columns = null;
+
+
+			$container.isotope({
+				// disable window resizing
+				resizable: true,
+				masonry: {
+					columnWidth: colW
+				}
+			});
+
+			$(window).smartresize(function() {
+				// check if columns has changed
+				var currentColumns = Math.floor(($body.width() - 30) / colW);
+				if (currentColumns !== columns) {
+					// set new column count
+					columns = currentColumns;
+					// apply width to container manually, then trigger relayout
+					$container.width(columns * colW)
+						.isotope('reLayout');
+				}
+
+			}).smartresize(); // trigger resize to set container width
+			$('.portfolioFilter a').click(function() {
+				$('.portfolioFilter .current').removeClass('current');
+				$(this).addClass('current');
+
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+
+					filter: selector,
+				});
+				return false;
+			});
+
+		});
+	</script>
 </body>
 </html>
